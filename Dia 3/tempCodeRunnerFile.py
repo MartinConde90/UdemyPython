@@ -1,1 +1,1 @@
-texto
+print(dic3)
