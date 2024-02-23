@@ -44,7 +44,7 @@ print(mi_lista3)
 print(eliminado)
 
 print("12---------------------")
-lista = ['g','o','b','m','c']
+lista = ['g','o','b','m','b']
 print(lista)
 lista.sort()
 # nueva_lista = lista.sort() ESTO NO SE PUEDE HACER
@@ -55,4 +55,14 @@ print(nueva_lista)
 print("13---------------------")
 lista.reverse()
 print(lista)
+
+print('14-Mostramos como asignando la lista a un numero de variables igual al numero de items de la lista, metemos cada item en cada variable')
+v,w,x,y,z = lista
+print(v,w,x,y,z)
+
+print('15-Utilizamos el metodo \'count()\' para mostrar el numero de repeticiones del item que queramos')
+print(lista.count('b'))
+
+print('16-Utilizamos el metodo \'index()\' para mostrar el indice del item indicado')
+print(lista.index('g'))
 

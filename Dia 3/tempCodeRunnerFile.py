@@ -1,1 +1,1 @@
-print(dic3)
+t
